@@ -1,4 +1,8 @@
+<ul>
 <div *ngFor="let post of posts">
-  <div [innerHTML]="parseBody(post.body)">
+  <li>
+  <div [innerHTML]="post.body">
   </div>
+  </li>
 </div>
+</ul>
